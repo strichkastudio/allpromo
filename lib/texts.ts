@@ -254,10 +254,10 @@ export const texts = {
         description: 'Professional corporate website with modern design, SEO optimization, and lead generation features for B2B services.',
         category: 'Corporate Website',
         images: [
-          'https://readdy.ai/api/search-image?query=Professional%20corporate%20website%20homepage%20with%20modern%20layout%2C%20hero%20section%20with%20business%20team%20photo%2C%20services%20grid%2C%20testimonials%20section%2C%20clean%20typography%2C%20blue%20and%20gray%20color%20palette%2C%20desktop%20view%2C%20business%20professional%20design&width=800&height=600&seq=corporate-site-1&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=Corporate%20services%20page%20with%20professional%20service%20cards%20layout%2C%20detailed%20service%20descriptions%2C%20call-to-action%20buttons%2C%20modern%20business%20website%20design%20with%20blue%20color%20scheme%2C%20professional%20typography&width=800&height=600&seq=corporate-site-2&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=Corporate%20about%20us%20page%20with%20team%20member%20profiles%2C%20company%20timeline%2C%20mission%20statement%20section%2C%20professional%20business%20website%20design%20with%20clean%20layout%20and%20blue%20accents&width=800&height=600&seq=corporate-site-3&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=Corporate%20contact%20page%20with%20contact%20form%2C%20office%20location%20map%2C%20contact%20information%2C%20professional%20business%20website%20design%20with%20modern%20layout%20and%20blue%20color%20scheme&width=800&height=600&seq=corporate-site-4&orientation=landscape'
+          '/portfolio/corporate-1.jpg',
+          '/portfolio/corporate-2.jpg',
+          '/portfolio/corporate-3.jpg',
+          '/portfolio/corporate-4.jpg'
         ],
         details: {
           challenge: 'Design a professional corporate presence that effectively communicates services and generates qualified leads.',
@@ -279,31 +279,31 @@ export const texts = {
         }
       },
       {
-        title: 'SolarMarket.co.pl - Solar Energy E-commerce',
-        description: 'Complete solar energy solutions marketplace with advanced product configurator and B2B functionality.',
-        images: [
-          'https://readdy.ai/api/search-image?query=Professional%20solar%20energy%20e-commerce%20website%20homepage%20with%20solar%20panel%20product%20grid%2C%20green%20and%20blue%20sustainable%20energy%20color%20scheme%2C%20modern%20renewable%20energy%20marketplace%20design%2C%20clean%20product%20catalog%20layout&width=800&height=600&seq=solar-energy-ecommerce-1&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=Solar%20panel%20product%20configurator%20interface%20with%20technical%20specifications%2C%20customization%20options%2C%20price%20calculator%2C%20professional%20renewable%20energy%20e-commerce%20design%20with%20green%20and%20blue%20colors&width=800&height=600&seq=solar-energy-ecommerce-2&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=B2B%20solar%20energy%20portal%20with%20wholesale%20pricing%2C%20bulk%20order%20management%2C%20technical%20documentation%20section%2C%20professional%20renewable%20energy%20platform%20design%20with%20sustainable%20color%20scheme&width=800&height=600&seq=solar-energy-ecommerce-3&orientation=landscape',
-          'https://readdy.ai/api/search-image?query=Solar%20energy%20installation%20services%20page%20with%20project%20portfolio%2C%20installation%20process%20visualization%2C%20service%20area%20map%2C%20professional%20renewable%20energy%20website%20design%20with%20green%20accents&width=800&height=600&seq=solar-energy-ecommerce-4&orientation=landscape'
-        ],
+        title: 'Evergreen Collective - Sustainable Home Goods E-commerce',
+        description: 'A premium Shopify e-commerce platform for an Australian sustainable goods brand, featuring a custom subscription model to boost recurring revenue.',
         category: 'E-commerce',
+        images: [
+          '/portfolio/evergreen-1.jpg', // Тимчасові назви, які ми замінимо
+          '/portfolio/evergreen-2.jpg',
+          '/portfolio/evergreen-3.jpg',
+          '/portfolio/evergreen-4.jpg'
+        ],
         details: {
-          challenge: 'SolarMarket needed a comprehensive e-commerce platform for solar energy products with complex product configurations, B2B pricing, and technical specifications management for the Polish market.',
-          solution: 'We developed a multi-language e-commerce platform with advanced product configurator, B2B portal, technical documentation management, and integrated CRM system for lead management.',
+          challenge: 'Evergreen Collective, an established Australian brand for sustainable home goods, had an outdated website with a poor mobile experience and no way to foster recurring purchases, limiting their growth potential.',
+          solution: 'We engineered a complete overhaul on the Shopify platform with a mobile-first design philosophy. A key feature was the integration of a custom subscription model, allowing customers to receive curated goods regularly. We also automated their email marketing to nurture customer relationships.',
           results: [
-            '340% increase in online sales within 6 months',
-            '65% improvement in B2B lead generation',
-            'Reduced product configuration time by 80%',
-            'Expanded to 3 new European markets'
+            'Increased mobile conversion rate by 70%',
+            'Subscription model adopted by 15% of customers within 3 months',
+            'Boosted Average Order Value by 25% through upselling',
+            'Reduced bounce rate by 40% due to improved UX'
           ],
-          technologies: ['Next.js', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
-          duration: '12 weeks',
+          technologies: ['Shopify Plus', 'Next.js (Headless)', 'Stripe', 'Klaviyo', 'Tailwind CSS'],
+          duration: '10 weeks',
           deliverables: [
-            'Multi-language e-commerce platform',
-            'B2B portal with custom pricing',
-            'Product configurator system',
-            'CRM integration and analytics dashboard'
+            'Mobile-first e-commerce platform',
+            'Custom subscription model integration',
+            'New brand identity & UX/UI design',
+            'Email marketing automation setup'
           ]
         }
       },
