@@ -17,3 +17,8 @@ html {
 .nav-link.active {
   @apply text-blue-400 bg-blue-500/10;
 }
+
+/* sticky header */
+.header-sticky {
+  @apply sticky top-0 z-50 backdrop-blur bg-gray-900/70;
+}
