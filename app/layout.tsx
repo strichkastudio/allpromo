@@ -99,7 +99,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
         <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
+        {/* Рядок <link rel="manifest" ... /> видалено */}
       </head>
       <body
         className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
