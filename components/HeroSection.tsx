@@ -20,7 +20,8 @@ export default function HeroSection() {
     }
   };
 
-  const heroImageUrl = 'https://readdy.ai/api/search-image?query=Modern%20digital%20workspace%20with%20floating%20holographic%20interface%20elements%2C%20abstract%20geometric%20shapes%20in%20blue%20and%20violet%20gradients%2C%20professional%20tech%20environment%20with%20subtle%20blockchain%20network%20visualization%2C%20minimalist%20design%20with%20depth%20and%20dimension%2C%20dark%20background%20with%20glowing%20accents%2C%20futuristic%20business%20atmosphere&width=1920&height=1080&seq=hero-bg&orientation=landscape';
+  // ✅ Замінюємо зовнішнє посилання на локальний шлях
+  const heroImageUrl = '/hero-background.jpg';
 
   return (
     <section 

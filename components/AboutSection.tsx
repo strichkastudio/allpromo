@@ -1,7 +1,7 @@
-
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image'; // ✅ Імпортуємо компонент Image з Next.js для кращої оптимізації
 
 export default function AboutSection() {
   const [content, setContent] = useState({
@@ -79,11 +79,13 @@ export default function AboutSection() {
           
           <div className="relative">
             <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-2xl p-8 border border-gray-700">
-              <img 
-                src="https://readdy.ai/api/search-image?query=Professional%20diverse%20international%20business%20team%20working%20together%20on%20digital%20projects%2C%20modern%20office%20environment%20with%20multiple%20screens%20showing%20analytics%20and%20web%20development%2C%20collaborative%20workspace%20with%20global%20connectivity%20symbols%2C%20high-tech%20atmosphere%20with%20blue%20accent%20lighting%2C%20people%20of%20different%20ethnicities%20focused%20on%20computers%20and%20tablets&width=600&height=400&seq=about-team&orientation=landscape"
+              {/* ✅ Замінили <img> на <Image> і оновили шлях */}
+              <Image 
+                src="/about-team.jpg" // Новий локальний шлях
                 alt="Global IT Excellence Team"
-                className="w-full h-64 object-cover object-top rounded-lg"
-                loading="lazy"
+                width={600} // Додаємо ширину
+                height={400} // Додаємо висоту
+                className="w-full h-auto object-cover object-top rounded-lg"
               />
               <div className="mt-6 flex items-center justify-between">
                 <div>
