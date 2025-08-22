@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* плавна прокрутка */
+html {
+  scroll-behavior: smooth;
+}
+
+/* базовий стиль для посилань у навігації */
+.nav-link {
+  @apply text-gray-300 hover:text-white transition-colors cursor-pointer px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-950;
+}
+
+/* активне підсвічування */
+.nav-link.active {
+  @apply text-blue-400 bg-blue-500/10;
+}
