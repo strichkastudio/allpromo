@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main # Або та гілка, з якою ви працюєте
+
+media_folder: "public/uploads" # Де зберігати завантажені зображення
+public_folder: "/uploads" # Як отримувати доступ до зображень на сайті
+
+collections:
+  - name: "blog" # Унікальна назва для колекції
+    label: "Блог" # Назва, яка буде відображатися в адмінці
+    folder: "_posts" # Папка в корені проєкту, де будуть зберігатися статті
+    create: true # Дозволити створювати нові документи
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Шаблон для назви файлу
+    fields: # Опис полів для кожної статті
+      - { label: "Заголовок", name: "title", widget: "string" }
+      - { label: "Дата публікації", name: "date", widget: "datetime" }
+      - { label: "Головне зображення", name: "thumbnail", widget: "image" }
+      - { label: "Текст статті", name: "body", widget: "markdown" }
